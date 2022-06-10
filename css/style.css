@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1140px; 
+    margin: 0 auto; 
+}
+.top{
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
+.top__box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.top__info{
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(../img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.top__heading{
+    width: 510px;
+    font-style: 64px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+.top__button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+.top__text{
+    width: 425px;
+}
+.heading-contacts{
+    font-weight: 500;
+    font-style: 44px;
+    text-align: center;
+}
+.what-we-do{
+    padding-top: 64px;
+}
+.heading{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+.heading-mini{
+    font-style: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+.text{
+    font-style: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+.card__img{
+    align-self: center;
+    margin-bottom: 51px;
+}
+.card__link{
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+    margin-top: 28px;
+}
+.card__link-vector{
+    margin-left: 24px;
+    align-self: center;
+}
+.heading-mini{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
+}
+.middle{
+    display: block;
+}
+.middle__heading{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.text__black{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    
+}
+/* .middle__img1{
+    background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+    margin-top: 64px;
+    border-radius: 10px;
+}
+.middle__img-box{
+    display: flex;
+}
+.middle__img2{
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+.middle__img3{
+    background: linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
+    border-radius: 10px;
+    margin-top: 32px;
+} */
+.middle__card-down{
+    display: flex;
+}
+.middle__card1{
+    margin-top: 64px;
+    background-image: url(../img/smarthome.png);
+    background-repeat: no-repeat;
+}
+.middle__heading1{
+    position: absolute;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 64px;
+    margin-left: 678px;
+}
+.middle__card2{
+    margin-top: 32px;
+    margin-right: 32px;
+    background-image: url(../img/sparklite.png);
+    background-repeat: no-repeat;
+}
+.middle__heading2{
+    position: absolute;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.middle__card3{
+    margin-top: 32px;
+    background-image: url(../img/sparklite.png);
+    background-repeat: no-repeat;
+}
+.middle__heading3{
+    position: absolute;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.footer{
+    height: 657px;
+    background: #316099;
+    margin-top: 112px;
+}
+.footer__top{
+    display: flex;
+    flex-direction: column;
+}
+.footer__heading{
+    position: absolute;
+    margin-top: 91px;
+    margin-left: 113px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer-text{
+    position: absolute;
+    width: 495px;
+    margin-top: 215px;
+    margin-left: 113px;
+    color: #FFFFFF;
+}
+.footer__button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background: #5A98D0;
+    color: #FFFFFF;
+    width: 236.63px;
+    height: 56px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    margin-top: 165px;
+    margin-left: 1015px; 
+}
+.footer__line{
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 185px;
+    margin-bottom: 64px;
+    
+}
+.footer__list{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 64px;
+}
+.footer__down{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-top: 64px;
+    margin-left: 113px;
+}
+
+/* Style for Contacts page */
+.top__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/topcontact.png);
+    background-repeat: no-repeat;
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+}
+.header-contacts{
+
+}
+.top__contact-us{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.contact-text{
+    width: 780px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
